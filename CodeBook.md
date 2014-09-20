@@ -5,8 +5,10 @@ the "UCI HAR Dataset" data files.  "test" and "training" datasets are combined.
 The script combines the "y" activities dataset with
 "subjects" and "X" (mean and standard deviation) of original measured
 smartphone values.  Activity numbers are replaced with descriptive activity
-names from "UCI HAR Dataset/activity_labels.txt".  Output columns are as
-follows.
+names from "UCI HAR Dataset/activity_labels.txt".  Finally, all of these measurements
+are averaged for each activity and subject.
+
+Output columns are as follows.
 
 - activity
     - Activity Name
