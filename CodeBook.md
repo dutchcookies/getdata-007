@@ -1,7 +1,8 @@
 ## DATA DICTIONARY - getdata-007
 
 The resulting neat data set "step5.txt" is the result of combining data from
-the "UCI HAR Dataset" data files.  It combine the "y" activities dataset with
+the "UCI HAR Dataset" data files.  "test" and "training" datasets are combined.
+The script combines the "y" activities dataset with
 "subjects" and "X" (mean and standard deviation) of original measured
 smartphone values.  Activity numbers are replaced with descriptive activity
 names from "UCI HAR Dataset/activity_labels.txt".  Output columns are as
