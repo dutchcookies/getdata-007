@@ -3,10 +3,12 @@
 The resulting neat data set "step5.txt" is the result of combining data from
 the "UCI HAR Dataset" data files.  "test" and "training" datasets are combined.
 The script combines the "y" activities dataset with
-"subjects" and "X" (mean and standard deviation) of original measured
+"subjects" and "X" (variables mean and standard deviation only) of original measured
 smartphone values.  Activity numbers are replaced with descriptive activity
 names from "UCI HAR Dataset/activity_labels.txt".  Finally, all of these measurements
 are averaged for each activity and subject.
+
+The original time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz.
 
 Output columns are as follows.
 
